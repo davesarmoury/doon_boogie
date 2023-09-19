@@ -1,0 +1,6 @@
+[submodule "ugv_sdk"]
+	path = ugv_sdk
+	url = https://github.com/agilexrobotics/ugv_sdk.git
+[submodule "hunter_ros"]
+	path = hunter_ros
+	url = https://github.com/agilexrobotics/hunter_ros.git
