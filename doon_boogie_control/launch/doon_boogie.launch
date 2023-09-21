@@ -1,0 +1,14 @@
+<launch>
+  <!-- node pkg="joy" type="joy_node" name="joy_node">
+    <param name="dev" value="/dev/input/js0" />
+    <param name="dev_ff" value="/dev/input/event17" />
+    <param name="deadzone" value="0.0" />
+    <param name="autorepeat_rate" value="12" />
+  </node -->
+
+  <!-- include file="$(find hunter_bringup)/launch/hunter_robot_base.launch" / -->
+
+  <node pkg="doon_boogie_control" type="boogie_joy.py" name="boogie_joy" output="screen">
+    <rosparam file="$(find doon_boogie_control)/params/doon_boogie.yaml" />
+  </node>
+</launch>
