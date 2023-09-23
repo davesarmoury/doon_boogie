@@ -1,9 +1,9 @@
 wheel:
-  index: 6
+  index: 5
   min: -0.5
   max: 0.5
 pedal:
-  index: 5
+  index: 2
   min: 0.4
   max: 0.8
 max_vel: 4.16
