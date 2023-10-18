@@ -1,11 +1,18 @@
 wheel:
   index: 5
-  min: -0.5
-  max: 0.5
+  min: -0.81
+  max: 0.77
 pedal:
   index: 2
-  min: 0.4
+  min: 0.45
   max: 0.8
-max_vel: 4.16
-max_yaw: 1.0
+
+# 10 km/h
+max_vel: 2.78
+# 15 km/h
+#max_vel: 4.17
+# platform max
+#max_vel: 4.8
+
+max_yaw: 0.4
 min_rate: 10
